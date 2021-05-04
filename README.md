@@ -30,7 +30,8 @@ Assignment 12 A & B: creating an app with media play to play a mp3 songs and spl
 ### Term Project:  The app has list of activity, linked website, and fare detail. The app can estimate the fare based on weekday and weekend discount and travel cost based on express, peak, luxury, and regular time with discount for veteran. Also, app can a play song of jay-z and sting.
 1.	App starts with a splash screen, which will last for 5 seconds. Typically a picture of the attraction site will be displayed in the splash screen
 2.	Following the splash screen, the main screen will be shown with a list of the following menu items: (1) Description (2) Web Information (3) Admission (4) Transportation (5) Audio.
-3.	List items:  
+3.	List items: 
+	 
   a.	Tapping on Description will bring up a screen with a picture and a few lines of description about the attraction.
   
   b.	Tapping on Web Information will bring up a screen with a website that describes the highlights about the attraction.
