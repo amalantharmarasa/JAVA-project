@@ -27,13 +27,17 @@ Assignment 11 A & B: create app using switch and case loop to create list of New
 
 Assignment 12 A & B: creating an app with media play to play a mp3 songs and splash screen. The task for play music, once the first music button click, the button change as pause songs and  the second music button disappear and when the second button click and  the button change as pause songs and  the first music button disappear.
 
-Term Project:  The app has list of activity, linked website, and fare detail. The app can estimate the fare based on weekday and weekend discount and travel cost based on express, peak, luxury, and regular time with discount for veteran. Also, app can a play song of jay-z and sting.
+### Term Project:  The app has list of activity, linked website, and fare detail. The app can estimate the fare based on weekday and weekend discount and travel cost based on express, peak, luxury, and regular time with discount for veteran. Also, app can a play song of jay-z and sting.
 1.	App starts with a splash screen, which will last for 5 seconds. Typically a picture of the attraction site will be displayed in the splash screen
 2.	Following the splash screen, the main screen will be shown with a list of the following menu items: (1) Description (2) Web Information (3) Admission (4) Transportation (5) Audio.
-3.	List items: 
-a.	Tapping on Description will bring up a screen with a picture and a few lines of description about the attraction.
-b.	Tapping on Web Information will bring up a screen with a website that describes the highlights about the attraction. 
-c.	Tapping on Admission will bring up a screen where you can enter number of tickets for each visiting group, i.e., Regular Adults, Senior and Minor, and Veterans. The Senior and Minor, and Veterans will enjoy discounted prices. Also on the screen is a check box for Membership. If checked the total price will be 20% off. The total dollar amount will be shown on the screen. 
-d.	Tapping on Transportation will bring up a screen for buying tickets for public transportation to the attraction. For instance, for Statue of Liberty, the transportation might be the ferry tickets. There will be two ticket prices, i.e. peak or non peak. You would need to use radio button to select peak or non peak. You would need allow user to enter total number of tickets and select peak or non-peak. The total dollar amount will be shown on the screen.
-e.	Tapping on Audio will bring up a screen with two attraction images and two play buttons. Clicking the button to play a piece of music.
+3.	List items:  
+  a.	Tapping on Description will bring up a screen with a picture and a few lines of description about the attraction.
+  
+  b.	Tapping on Web Information will bring up a screen with a website that describes the highlights about the attraction.
+  
+  c.	Tapping on Admission will bring up a screen where you can enter number of tickets for each visiting group, i.e., Regular Adults, Senior and Minor, and Veterans. The Senior and Minor, and Veterans will enjoy discounted prices. Also on the screen is a check box for Membership. If checked the total price will be 20% off. The total dollar amount will be shown on the screen. 
+  
+  d.	Tapping on Transportation will bring up a screen for buying tickets for public transportation to the attraction. For instance, for Statue of Liberty, the transportation might be the ferry tickets. There will be two ticket prices, i.e. peak or non peak. You would need to use radio button to select peak or non peak. You would need allow user to enter total number of tickets and select peak or non-peak. The total dollar amount will be shown on the screen.
+  
+  e.	Tapping on Audio will bring up a screen with two attraction images and two play buttons. Clicking the button to play a piece of music.
 
