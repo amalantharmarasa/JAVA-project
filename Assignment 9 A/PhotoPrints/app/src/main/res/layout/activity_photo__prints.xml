@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Photo_Prints">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtTitles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="@string/txtTitle" />
+
+        <EditText
+            android:id="@+id/txtPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="97dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:id="@+id/Radio_Group"
+            android:layout_width="221dp"
+            android:layout_height="201dp"
+            android:layout_centerInParent="true">
+
+            <RadioButton
+                android:id="@+id/rad4x9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/four_x_sex" />
+
+            <RadioButton
+                android:id="@+id/rad5x7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/five_x_seven" />
+
+            <RadioButton
+                android:id="@+id/rad8x10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/eight_x_ten" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnPrints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="102dp"
+            android:text="@string/btnorder" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:text="*" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

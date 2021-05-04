@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Split Bill App by Amalan</string>
+    <string name="AppTitle">Welcome to Split Bill App</string>
+    <string name="txtChaneg">Change the Suggested Tip Below:</string>
+    <string name="txt20per">20% Excellent Service</string>
+    <string name="txt15per">15% Average Service</string>
+    <string name="tat10per">10% Poor Service</string>
+    <string name="txtown">Specify your own tip</string>
+    <string name="btnEnter">Enter</string>
+    <string name="image">image description</string>
+
+
+    <string name="txtTitle_Split">Split Bill App</string>
+    <string name="txtinfo">Please Enter the Billing Informations</string>
+    <string name="txtPromt">Please rate the quality of service</string>
+    <string name="txtAmount">Enter billed amount</string>
+    <string name="txtPeople">Enter # of People</string>
+    <string name="txtOtherTip">Enter other amount</string>
+
+    <string name="image_Splite">image02_Description</string>
+    <string name="btnSplitBill">SPLIT BILL</string>
+
+    <string-array name="txtTip">
+        <item>20% Excellent</item>
+        <item>15% Average</item>
+        <item>10% Poor</item>
+        <item>Other (Specify)</item>
+    </string-array>
+
+
+</resources>

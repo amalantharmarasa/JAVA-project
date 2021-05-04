@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Audio">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbackground"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="361dp"
+            android:layout_height="225dp"
+            android:layout_above="@+id/btnEmpire"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-253dp"
+            android:contentDescription="@string/image_description"
+            app:srcCompat="@drawable/empirestateofmind" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="294dp"
+            android:layout_height="228dp"
+            android:layout_above="@+id/btnNewyork"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/image_description"
+            app:srcCompat="@drawable/englishmaninnewyork" />
+
+        <Button
+            android:id="@+id/btnEmpire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="253dp"
+            android:text="@string/button_Empire"
+            android:textColor="#ef0e3b"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnNewyork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:text="@string/button_newyork"
+            android:textColor="#ef0e3b"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btnAHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/home" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

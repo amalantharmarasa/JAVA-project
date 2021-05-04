@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Description">
+
+    <RelativeLayout
+        android:id="@+id/bkhg"
+        android:layout_width="395dp"
+        android:layout_height="618dp"
+        android:background="@drawable/vesselback"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtDes"
+            android:layout_width="299dp"
+            android:layout_height="461dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:background="#bb7338"
+            android:text="The extraordinary centerpiece of Hudson Yards is its spiral staircase, a soaring new landmark meant to be climbed. This interactive artwork was imagined by Thomas Heatherwick and Heatherwick Studio as a focal point where people can enjoy new perspectives of the city and one another from different heights, angles and vantage points.                         Comprised of 154 intricately interconnecting flights of stairs -- almost 2,500 individual steps and 80 landings – the nearly one mile of vertical climb offers remarkable views of the city, the river and beyond."
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDescri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:background="#bb7338"
+            android:text="@string/description"
+            android:textAllCaps="true"
+            android:textSize="36sp" />
+
+        <ImageButton
+            android:id="@+id/btnAbHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/home" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

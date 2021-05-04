@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".World_Trade_Center">
+
+    <RelativeLayout
+        android:id="@+id/world_trade"
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        android:background="#78c1a0"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/world_trade"
+            android:textAlignment="center"
+            android:textColor="@color/apptitlecolor"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="223dp"
+            android:layout_height="219dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/image_worlda"
+            app:srcCompat="@drawable/worldtrade" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="213dp"
+            android:layout_height="219dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="39dp"
+            android:contentDescription="@string/image_worldb"
+            app:srcCompat="@drawable/worldtradenight" />
+
+        <TextView
+            android:id="@+id/copyrht1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:text="@string/copyrights" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

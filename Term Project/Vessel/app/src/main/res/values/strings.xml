@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Vessel by Amalan</string>
+    <string name="image">imageDescription</string>
+    <string name="name">By: Amalan Tharmarasa</string>
+    <string name="button_Empire">Play Empire State of Mind</string>
+    <string name="button_newyork">Play Englishman in New York</string>
+    <string name="vessel_Title">VESSEL</string>
+    <string name="copyRight">Photo credit to the source of images</string>
+    <string name="image_description">image descriptions</string>
+    <string name="admission">Admission</string>
+    <string name="txtticket">Number of Tickets</string>
+
+
+    <string-array name="txtDay">
+        <item>WeekDay 2% more</item>
+        <item>Weekend 3% more</item>
+        <item>Holiday 4% more</item>
+    </string-array>
+
+    <string-array name="txtTime">
+        <item>Day regular price</item>
+        <item>Night 2 less</item>
+    </string-array>
+
+    <string-array name="txtSeeandDo">
+        <item>VESSEL $2 extra</item>
+        <item>SNARK PARK $3 extra</item>
+        <item>EDGE $4 extra</item>
+    </string-array>
+    <string name="prompt1">Select Day</string>
+    <string name="prompt2">Select Time</string>
+    <string name="prompt3">Select Place</string>
+    <string name="receipt">Receipt</string>
+
+    <string name="fare_Title">BUS FARE</string>
+    <string name="quens_to_nyc">Queens to Vessel NYC</string>
+    <string name="number_bus_tickets">Number of Bus Tickets</string>
+    <string name="Express">Express plus $5</string>
+    <string name="regular">Regular</string>
+    <string name="Peak">Peak Plus $3</string>
+    <string name="NonPeak">Non Peak</string>
+    <string name="Luxury">Luxury plus $7</string>
+    <string name="Ordinary">Ordinary</string>
+    <string name="veteran">Veteran Discount (2%)</string>
+    <string name="description">About Vessel</string>
+    <string name="cost">COST</string>
+</resources>

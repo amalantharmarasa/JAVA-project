@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chocolate Desserts by Amalan</string>
+    <string name="mousee">Mousse</string>
+    <string name="mousse_image">image description</string>
+    <string name="click">Click the image...</string>
+    <string name="cake">Cake</string>
+    <string name="macaron">Macaron</string>
+
+</resources>

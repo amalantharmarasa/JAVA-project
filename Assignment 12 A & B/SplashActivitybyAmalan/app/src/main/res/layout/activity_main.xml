@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="618dp"
+        android:background="@drawable/boarder"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="327dp"
+            android:layout_height="194dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/ukulele"
+            app:srcCompat="@drawable/ukulele" />
+
+        <Button
+            android:id="@+id/btnUkulele"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btnUkulele"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="383dp"
+            android:layout_height="215dp"
+            android:layout_above="@+id/btnDrums"
+            android:contentDescription="@string/drums"
+            app:srcCompat="@drawable/drums" />
+
+        <Button
+            android:id="@+id/btnDrums"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="55dp"
+            android:text="@string/btnDrums"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

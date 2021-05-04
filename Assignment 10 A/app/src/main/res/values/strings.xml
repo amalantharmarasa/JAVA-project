@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The City Guide app by Amalan</string>
+    <string name="pier">Navy Pier Image</string>
+    <string name="water">Water Tower Image</string>
+    <string name="willis">Willis Tower Image</string>
+    <string name="watertxt">Water Tower</string>
+    <string name="Piertxt">Navy Pier</string>
+    <string name="willistxt">willis</string>
+</resources>

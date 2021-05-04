@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admission">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="618dp"
+        android:background="#d98b54"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/admission"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fafafa"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="339dp"
+            android:contentDescription="@string/image"
+            app:srcCompat="@drawable/capture" />
+
+        <EditText
+            android:id="@+id/txtTickets"
+            android:layout_width="345dp"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="219dp"
+            android:background="#fbfafa"
+            android:ems="10"
+            android:hint="@string/txtticket"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#0d4d0c" />
+
+        <Spinner
+            android:id="@+id/txtPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#fbfafa"
+            android:entries="@array/txtSeeandDo"
+            android:prompt="@string/prompt3"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/txtDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:background="#fbfafa"
+            android:entries="@array/txtDay"
+            android:prompt="@string/prompt1"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="217dp"
+            android:background="#fbfafa"
+            android:entries="@array/txtTime"
+            android:prompt="@string/prompt2"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/btnADReceipt"
+            android:layout_width="112dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/txtResult"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            app:srcCompat="@drawable/button" />
+
+        <TextView
+            android:id="@+id/txtreceipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="27dp"
+            android:layout_marginStart="51dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="104dp"
+            android:background="#f7f6f6"
+            android:text="*"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnADReceipt"
+            android:layout_centerHorizontal="true"
+            android:text="@string/cost"
+            android:textColor="#f7f6f6" />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="57dp"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/home" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Medical Calculator By Amalan</string>
+    <string name="txtTitle">Conver Patient Weight</string>
+    <string name="hint">Weight of Patient</string>
+    <string name="radioTokilo">Convert Pounds to Kilogram</string>
+    <string name="RadioKilotoLb">Convert Kilograme to Pounds</string>
+    <string name="btnConvert">Convert Weight</string>
+
+</resources>

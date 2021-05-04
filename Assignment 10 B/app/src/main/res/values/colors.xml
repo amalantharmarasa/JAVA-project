@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_cocor">#ec4343</color>
+    <color name="background">#94c3cd</color>
+    <color name="backgroung">#74bbbe</color>
+    <color name="apptitlecolor">#e24646</color>
+</resources>

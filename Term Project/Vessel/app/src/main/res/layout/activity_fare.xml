@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fare">
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="634dp"
+        android:background="@drawable/bustops"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtTilte"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:background="#fffefe"
+            android:text="@string/fare_Title"
+            android:textColor="#34ecf5"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtsubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTilte"
+            android:layout_centerHorizontal="true"
+            android:background="#fffefe"
+            android:text="@string/quens_to_nyc"
+            android:textColor="#f52c9b"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_below="@+id/txtsubtitle"
+            android:contentDescription="@string/image_description"
+            app:srcCompat="@drawable/bus" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="116dp"
+            android:background="#e76974" />
+
+        <EditText
+            android:id="@+id/BusTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:background="#faf7f7"
+            android:ems="10"
+            android:hint="@string/number_bus_tickets"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#e52323"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/RadEXorRE"
+            android:layout_width="161dp"
+            android:layout_height="112dp"
+            android:layout_above="@+id/RadPEornope">
+
+            <RadioButton
+                android:id="@+id/RExpress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Express" />
+
+            <RadioButton
+                android:id="@+id/Rregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/regular" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadLuxorOd"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/RadEXorRE"
+            android:layout_marginEnd="21dp">
+
+            <RadioButton
+                android:id="@+id/Rluxury"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:text="@string/Luxury" />
+
+            <RadioButton
+                android:id="@+id/Rordinary"
+                android:layout_width="142dp"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:text="@string/Ordinary" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadPEornope"
+            android:layout_width="149dp"
+            android:layout_height="105dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="142dp">
+
+            <RadioButton
+                android:id="@+id/Rpeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Peak" />
+
+            <RadioButton
+                android:id="@+id/Rnonpeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/NonPeak" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/Rveteran"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/RadLuxorOd"
+            android:layout_below="@+id/RadEXorRE"
+            android:text="@string/veteran" />
+
+        <ImageButton
+            android:id="@+id/btnBusCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/RadLuxorOd"
+            android:layout_below="@+id/Rveteran"
+            app:srcCompat="@drawable/bus2" />
+
+        <TextView
+            android:id="@+id/txtResultBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-115dp"
+            android:background="#faf7f7"
+            android:text="*"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ytxtcosst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="151dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/cost"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageButton
+            android:id="@+id/btnFHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/home" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

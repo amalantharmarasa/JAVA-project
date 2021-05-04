@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NYC City Guide by Amalan</string>
+    <string name="firstpage_title">Welcome to NYC City Guide App</string>
+    <string name="image_a">image description</string>
+
+    <string name="image_worlda">image description</string>
+    <string name="image_worldb">image description</string>
+    <string name="world_trade">World Trade Center</string>
+
+    <string name="empie_state">Empire State Building</string>
+    <string name="image_world_trade_a">image description</string>
+    <string name="image_world_trade_b">image description</string>
+
+    <string name="image_central_park_a">image description</string>
+    <string name="image_central_park_b">image description</string>
+    <string name="centarl_park">Central Park</string>
+
+    <string name="btncity">botton</string>
+    <string name="copyrights">photo credit to the source of images</string>
+</resources>

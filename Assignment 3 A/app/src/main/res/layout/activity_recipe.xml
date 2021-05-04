@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipe">
+
+    <RelativeLayout
+        android:id="@+id/actresclo"
+        android:layout_width="344dp"
+        android:layout_height="526dp"
+        android:background="#af8686"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/activityrecip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title_activity_recipe"
+            android:textColor="@color/acttiltclo"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textingred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="41dp"
+            android:text="@string/txtIngredients"
+            android:textColor="@color/ingdr"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textitm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="159dp"
+            android:text="@string/txtItem1"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/txtitem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textitm1"
+            android:layout_marginTop="190dp"
+            android:text="@string/txtItem2"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/itm3"
+            android:layout_width="269dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/item4"
+            android:text="@string/txtItem3"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itm5"
+            android:layout_centerHorizontal="true"
+            android:text="@string/txtItem4"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/itm5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textitm1"
+            android:layout_below="@+id/textingred"
+            android:text="@string/txtItem5"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/item6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtitem2"
+            android:text="@string/txtItem6"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/why"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textingred"
+            android:layout_marginBottom="233dp"
+            android:text="@string/why"
+            android:textColor="@color/why"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/whyheal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/why"
+            android:layout_marginTop="-233dp"
+            android:text="@string/healthy"
+            android:textColor="@color/itmclo" />
+
+        <TextView
+            android:id="@+id/derict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="132dp"
+            android:layout_marginStart="110dp"
+            android:text="@string/txtDirections"
+            android:textColor="@color/derctioclo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/drictiontxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="72dp"
+            android:text="@string/txtMix" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="112dp"
+            android:layout_height="76dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@drawable/recipes" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".car_ash_packages">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="@string/txtTitle"
+            android:textAlignment="center"
+            android:textColor="@color/txttitlwcolor"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txtNumber"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint"
+            android:inputType="number"
+            android:textColor="@color/numbercolor"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/txtRadGrop"
+            android:layout_width="238dp"
+            android:layout_height="127dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="148dp">
+
+            <RadioButton
+                android:id="@+id/radEx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Exterior_Only" />
+
+            <RadioButton
+                android:id="@+id/radExwVac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/exterior_interior_vacuum" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="192dp"
+            android:text="@string/btnButton"
+            android:textAlignment="center"
+            android:textColor="@color/btncolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="152dp"
+            android:text="*"
+            android:textColor="@color/txtcolorfor_result"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="117dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/image"
+            app:srcCompat="@drawable/carwash" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

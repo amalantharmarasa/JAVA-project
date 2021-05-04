@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Week 04 Project APP</string>
+    <string name="weekapp">Week 04 App</string>
+    <string name="btn1Recipe">Recipe</string>
+    <string name="btn2ecard">e-Card</string>
+    <string name="rec_imag_des">Week 04 App</string>
+    <string name="ecad_imag_des">Week 04 App</string>
+    <string name="btnviewrecipe">View recipe</string>
+
+
+    <string name="btnRecipe">View Recipe</string>
+    <string name="txtTitle">Bean and Mango Salad Recipe</string>
+    <string name="txtMix">In a medium salad bowl, mix together the mango, black beans, navy beans, onion and cilantro. Toss with the balsamic vinaigrette dressing.</string>
+    <string name="txtItem1">1 mango - peeled, seeded and diced</string>
+    <string name="txtItem2">15 ounce can black beans, rinsed and drained</string>
+    <string name="txtItem3">15 ounce  can navy beans, rinsed and drained</string>
+    <string name="txtItem4">half cup chopped fresh cilantro</string>
+    <string name="txtItem5">half cup chopped onion</string>
+    <string name="txtItem6">half cup balsamic vinaigrette salad dressing</string>
+    <string name="txtDirections">Directions</string>
+    <string name="txtIngredients">Ingredients</string>
+    <string name="title_activity_recipe">Recipe</string>
+    <string name="description">Recipe Image</string>
+    <string name="why">Why it healthy</string>
+
+
+    <string name="e_ecard_title">E- Business Card</string>
+    <string name="e_card_btn">View e- card</string>
+    <string name="e_txt_name">Amalan Tharmarasa</string>
+    <string name="e_txtp_hone">Phone # 1234561212</string>
+    <string name="e_txt_email">Email: amalantwo@gmail.com</string>
+    <string name="e_txt_web">Web: www.amalan.com</string>
+    <string name="e_title_activity_Card">Contacts</string>
+    <string name="e_description_ecard">Card Image</string>
+
+
+</resources>

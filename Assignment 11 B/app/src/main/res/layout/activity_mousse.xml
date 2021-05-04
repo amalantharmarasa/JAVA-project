@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mousse">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="526dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <ImageButton
+            android:id="@+id/btnMousse"
+            android:layout_width="328dp"
+            android:layout_height="512dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/mousse" />
+
+        <TextView
+            android:id="@+id/click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="63dp"
+            android:layout_marginStart="90dp"
+            android:text="@string/click"
+            android:textColor="#f7f4f4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtMousse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/mousee"
+            android:textAllCaps="false"
+            android:textColor="@color/titlecolor"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
