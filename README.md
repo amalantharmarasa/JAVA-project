@@ -1,5 +1,6 @@
 ## ET 716 Java Programming Technology
-This is a project-oriented computer-programming course in the Java Language. Students will learn to develop, test, and debug Java-based solutions to real-world problems. Solutions will be posted and tested on the department’s student-project Web server in the form of Java-enhanced Web pages.
+# This is a project-oriented computer-programming course in the Java Language. Students will learn to develop, test, and debug Java-based solutions to real-world problems. Solutions will be posted and tested on the department’s student-project Web server in the form of Java-enhanced Web pages.
+
 Assignment 01: launching a App.
 
 Assignment 2 A: app that include five fact of myself and all the courses that I take in this semester. The text should appear with different color, background and size.
