@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dessert Name by Amalan</string>
+    <string name="appTitle">List of all ten Android OS</string>
+    <string name="txtV1">Cupcake</string>
+    <string name="txtV2">Donut</string>
+    <string name="txtV3">Eclair</string>
+    <string name="txtV4">Froyo</string>
+    <string name="txtV5">Pie</string>
+    <string name="txtV6">Honeycomb</string>
+    <string name="txtV7">Oreo</string>
+    <string name="txtV8">Jelly Bean</string>
+    <string name="txtV9">KitKat</string>
+    <string name="txtV10">Lollipop</string>
+
+</resources>

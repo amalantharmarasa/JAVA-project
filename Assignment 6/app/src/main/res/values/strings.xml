@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Week_16_Project6A</string>
+    <string name="txtTitle">Catalina Ferry Tickets</string>
+    <string name="description">Ferry image</string>
+    <string name="txtTickets">Number of Tickets</string>
+    <string-array name="txtDestinations">
+    <item>Jones Beach </item>
+    <item>Long Beach </item>
+    <item>Fire Island </item>
+    </string-array>
+    <string-array name="txtTime">
+        <item>Peak</item>
+        <item>Nonpeak</item>
+    </string-array>
+    <string name="prompt1">Select Destination</string>
+    <string name="prompt2">Select Time</string>
+    <string name="btnCost">COMPUTE COST</string>
+</resources>

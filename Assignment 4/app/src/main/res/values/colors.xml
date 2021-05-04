@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Apptitle">#f837ae</color>
+    <color name="btnclo">#4e96ee</color>
+    <color name="appbkgcolor">#69b383</color>
+    <color name="recipetitlecolor">#38c4f2</color>
+    <color name="reccolorbkg">#f4a2a2</color>
+    <color name="recbkgcolo">#d68282</color>
+    <color name="bkncolorreci">#d08e8e</color>
+    <color name="bkgcol">#d99c9c</color>
+    <color name="rectitcolo">#e0792f</color>
+    <color name="ingrecolco">#a92525</color>
+    <color name="ingcolo">#f06a3e</color>
+    <color name="clo1">#eb8e8e</color>
+    <color name="clore1">#9c5b5b</color>
+    <color name="ecardclor">#eb2d2d</color>
+    <color name="contclo">#9cfd279d</color>
+    <color name="con_text_colo">#0e9619</color>
+</resources>
